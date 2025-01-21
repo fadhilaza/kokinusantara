@@ -1,0 +1,80 @@
+/* Style umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000; /* Warna teks hitam default */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #e0e0e0;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    color: #000; /* Warna teks hitam */
+    text-decoration: none;
+    margin: 15px 0;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+    background-color: #ffc107;
+    color: #000; /* Tetap putih saat aktif atau di-hover */
+}
+
+/* Konten Utama */
+.content {
+    margin-left: 260px;
+    padding: 40px;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    text-align: left;
+    vertical-align: top; /* Align text to the top */
+    padding: 12px;
+    border: 1px solid #ddd;
+    color: #000; /* Warna teks hitam */
+}
+
+table th {
+    background-color: #ffc107;
+    color: #000; /* Tetap putih untuk heading tabel */
+}
+
+.status-active {
+    background-color: green;
+    color: #fff; /* Tetap putih untuk status */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.status-pending {
+    background-color: orange;
+    color: #fff; /* Tetap putih untuk status */
+    padding: 5px 10px;
+    border-radius: 5px;
+}

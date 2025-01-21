@@ -1,0 +1,139 @@
+.navbar-custom {
+    background-color: white; /* Warna latar belakang navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan bawah */
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-brand-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .btn-premium {
+    background-color: #000 !important; /* Kuning */
+    color: #ffc107; /* Hilangkan underline jika ada */
+    border-radius: 20px;
+  }
+
+  .btn-premium:hover {
+    color: #ffdd57 !important; /* Kuning lebih terang saat hover */
+  }
+
+  .btn-login {
+    background-color: #000;
+    color: #fff;
+    border-radius: 20px;
+  }
+
+  .btn-register {
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 20px;
+  }
+
+  .search-bar {
+    border-radius: 20px;
+
+  }
+
+  #min-logo {
+    max-width: 250px;
+    max-height: 250px;
+  }
+
+  @media (max-width: 768px) {
+    .dropdown-menu {
+      width: 150px; /* Sesuaikan ukuran */
+    }
+  
+    .profile-dropdown .rounded-circle {
+      width: 30px;
+      height: 30px;
+    }
+  }  
+
+.dropdown-item {
+  font-size: 16px;
+  padding: 8px 0;
+}
+
+.dropdown-item:hover {
+  color: #ffc107; /* Custom highlight color */
+}
+
+.dropdown-divider {
+  margin: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.row .col .border {
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.row .col .border:hover {
+  background-color: #ffebcc;
+  color: #d35400;
+  transform: scale(1.05);
+}
+
+.btn-kategori {
+  background-color: #ffc107;
+}
+
+.custom-item {
+  color: #000;
+  background-color: #ffffff; /* Hijau */
+}
+
+.custom-item:hover {
+  background-color: #dc3545; /* Hijau lebih gelap saat di-hover */
+  color: #ffffff;
+}
+
+.profile-container{
+  background: F5F5F5;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  margin: 100px auto;
+}
+
+.container-unggah{
+  background: bg-light;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin: 100px auto;
+}
+.small-text {
+  font-size: 12px; /* Ukuran font lebih kecil */
+  color: gray;
+}
+
+.btn-secondary{
+  border-radius: 20px;
+}
+
+.container-rsp{
+  background: bg-light;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 1500px;
+  margin: 100px auto;
+}
+
+.card-rating {
+  border-radius: 30px;
+  background-color: #d9d9d9;
+}

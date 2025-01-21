@@ -1,0 +1,7 @@
+.rating-stars i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.rating-stars .active {
+    color: gold;
+}

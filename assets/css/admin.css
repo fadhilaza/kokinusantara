@@ -1,0 +1,194 @@
+        /* Style umum */
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #000; /* Warna teks hitam default */
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background-color: #e0e0e0;
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .sidebar a {
+            display: block;
+            color: #000; /* Warna teks hitam */
+            text-decoration: none;
+            margin: 15px 0;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a.active,
+        .sidebar a:hover {
+            background-color: #ffc107;
+            color: #000; /* Tetap putih saat aktif atau di-hover */
+        }
+
+        /* Konten Utama */
+        .content {
+            margin-left: 260px;
+            padding: 40px;
+        }
+
+        /* Dashboard Overview */
+        .dashboard-overview {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .overview-box {
+            background-color: #ffc107;
+            color: #000; /* Warna teks hitam */
+            text-align: center;
+            padding: 15px 20px;
+            border-radius: 10px;
+            flex: 1 1 calc(30% - 20px);
+            box-sizing: border-box;
+            margin: 10px 0;
+        }
+
+        .overview-box h4 {
+            margin: 0;
+            font-size: 18px;
+        }
+
+        .overview-box p {
+            margin: 5px 0 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Aktivitas Terbaru */
+        .activity-section {
+            margin-top: 30px;
+        }
+
+        .activity-section h3 {
+            color: #000; /* Warna teks hitam */
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            text-align: left;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        table th, table td {
+            text-align: left;
+            padding: 12px;
+            border: 1px solid #ddd;
+            color: #000; /* Warna teks hitam */
+        }
+
+        table th {
+            background-color: #ffc107;
+            color: #000; /* Tetap putih untuk heading tabel */
+        }
+
+        table td.status {
+            text-align: left;
+        }
+
+        .status-active {
+            background-color: green;
+            color: #fff; /* Tetap putih untuk status */
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .status-pending {
+            background-color: orange;
+            color: #fff; /* Tetap putih untuk status */
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .stat-box {
+            background-color: #f5c21d;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            color: #000;
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .review {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .review-info {
+            flex: 1;
+        }
+
+        .review h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .review p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .rating {
+            font-size: 18px;
+            color: #ffbf00;
+            margin-bottom: 10px;
+        }
+
+        .approve-btn {
+            background-color: #f5c21d;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .approve-btn:hover {
+            background-color: #e3ac17;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+        

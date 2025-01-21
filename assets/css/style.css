@@ -1,0 +1,47 @@
+body {
+            background-image: url('../images/bglog.jpg'); /* Ganti dengan URL gambar latar Anda */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .register-container {
+            background: white;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        .register-container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .register-container button {
+            background-color: #FFD700;
+            color: black;
+            border: none;
+            font-weight: bold;
+        }
+
+        .register-container button:hover {
+            background-color: #FFC107;
+        }
+
+        .register-container a {
+            color: #FFC107;
+            text-decoration: none;
+        }
+
+        .register-container a:hover {
+            text-decoration: underline;
+        }
+
+        .form-control {
+            background: #f3f3f3;
+            border: none;
+            border-radius: 10px;
+        }

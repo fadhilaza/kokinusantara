@@ -1,0 +1,111 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .header-background {
+    background-image: url('../images/headerbord.png') ;/* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .search-box {
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .popular-card img {
+    border-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+  }
+
+  .card-kategori{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+  }
+
+  .card-kelola{
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+  }
+
+  .container-kelola{
+    background: F5F5F5;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 100px auto;
+  }
+
+  .btn-hapus {
+    background-color: #dc3545;
+    color: #000;
+    border-radius: 20px;
+  }
+
+  .container-premium{
+    background: F5F5F5;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: 100px auto;
+  }
+
+  .premium-link {
+    text-decoration: none; /* Hapus garis bawah pada link */
+    display: inline-block;
+  }
+
+  .premium-link:hover .premium-overlay {
+    background-color: rgba(0, 0, 0, 0.8); /* Latar belakang lebih gelap saat di-hover */
+  }  
+
+  .video-container {
+    position: relative;
+    width: 100%; /* Kontainer memenuhi lebar elemen induk */
+    max-width: 450px; /* Batas maksimal lebar kontainer */
+    height: 300px; /* Tinggi menyesuaikan dengan lebar */
+    display: flex;
+  }
+
+  .video-container video {
+    filter: blur(8px); /* Efek blur pada video */
+    pointer-events: none; /* Cegah interaksi dengan video */
+    width: 100%; /* Sesuaikan dengan lebar kontainer */
+    height: auto; /* Rasio aspek video tetap terjaga */
+    border-radius: 25px;
+    object-fit: cover; /* Isi video tetap proporsional */
+  }
+
+  .premium-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6); /* Latar belakang semi transparan */
+    color: #ffc107;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    text-align: center;
+    display: flex; /* Gunakan flexbox untuk menyusun logo dan teks */
+    pointer-events: none; /* Cegah interaksi dengan overlay */
+    gap: 10px; /* Jarak antara logo dan teks */
+  }
+
+
+  .premium-logo {
+    width: 24px; /* Sesuaikan ukuran logo */
+    height: 24px; /* Sesuaikan ukuran logo */
+  }
+  
